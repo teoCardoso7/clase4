@@ -1,0 +1,23 @@
+.menu li:hover ul{
+  display: block;
+}
+ul{
+  list-style: none;
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 4%, rgba(9,9,121,1) 89%, rgba(2,0,36,1) 100%);
+}
+ul li{
+  display: inline;
+  padding: 5px 200px;
+  position: relative;
+}
+.submenu{
+  display: none;
+  list-style: none;
+  position: absolute;
+  left: 40%;
+
+}
+p:hover{
+  transform: scale(1.5);
+}
